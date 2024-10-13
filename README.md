@@ -1,6 +1,10 @@
 # Coding Assessment L-2 Code Submission Process with Boilerplate
 # Cart Application
 
+# deployed link
+
+https://dhirajkr08.github.io/L2-assement/
+
 # you can clone directly from here
 
 git clone https://github.com/Dhirajkr08/L2-assement.git
