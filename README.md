@@ -21,6 +21,5 @@ Local Storage: Persists cart data in local storage to retain state after page re
 ## Important Notes
 
 - not used any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
 
 
