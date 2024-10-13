@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <title>e-commerce-cart</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="shadow-box nav flex">
+            <h1 class="logo">Marmeto</h1>
+            <ul class="nav-links flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="icons flex">
+                <span>⌕</span>
+                <span>♡</span>
+                <span>&#128722;</span>
+            </div>
+        </nav>
+    </div>
+    <section class="breadcrumb bg-gray-100">
+        <h1>Cart</h1>
+        <p>Home > Cart</p>
+    </section>
+    <main class="flex">
+        <section id="cart-content" class="flex-col">
+        </section>
+        <aside id="cart-totals">
+            <h2>Cart Totals</h2>
+            <div class="totals">
+                <p id="subtotal">Subtotal: ₹0.00</p>
+                <p id="total">Total: ₹0.00</p>
+            </div>
+            <button type="submit" class="checkout" id="checkout-button">Check Out</button>
+        </aside>
+    </main>
+    
+    <footer>
+        <div class="service-icons flex">
+            <div>High Quality</div>
+            <div>Warranty Protection</div>
+            <div>Free Shipping</div>
+            <div>24/7 Support</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
