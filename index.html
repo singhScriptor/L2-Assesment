@@ -3,52 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="script.css">
-    <title>e-commerce-cart</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Cart-Design</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="shadow-box nav flex">
-            <h1 class="logo">Marmeto</h1>
-            <ul class="nav-links flex">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="icons flex">
-                <span>⌕</span>
-                <span>♡</span>
-                <span>&#128722;</span>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/Logo.png" alt="logo">
+                <h1>Marmeto</h1>
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-logo">
+                <img src="images/searchlogo.png" alt="#">
+                <img src="images/favorite.png" alt="#">
+                <img src="images/shopping-cart.png" alt="#">
             </div>
         </nav>
-    </div>
-    <section class="breadcrumb bg-gray-100">
-        <h1>Cart</h1>
-        <p>Home > Cart</p>
-    </section>
-    <main class="flex">
-        <section id="cart-content" class="flex-col">
-        </section>
-        <aside id="cart-totals">
-            <h2>Cart Totals</h2>
-            <div class="totals">
-                <p id="subtotal">Subtotal: ₹0.00</p>
-                <p id="total">Total: ₹0.00</p>
-            </div>
-            <button type="submit" class="checkout" id="checkout-button">Check Out</button>
-        </aside>
-    </main>
-    
-    <footer>
-        <div class="service-icons flex">
-            <div>High Quality</div>
-            <div>Warranty Protection</div>
-            <div>Free Shipping</div>
-            <div>24/7 Support</div>
-        </div>
-    </footer>
+    </header>
+    <section>
+        <div>
+            <div>
+                <img src="images/Logo.png" alt="logo" class="section-logo">
+                <h1>Cart</h1>
 
+            </div>
+            <div>
+                <h4>Home
+                <span>></span>
+                Cart</h4>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="cart-table">
+            <table>
+                <thead class="table-header">
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Sub-Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="cart-body">
+
+                </tbody>
+            </table>    
+        </div>
+
+        <div class="cart-summary">
+            <aside class="cart-totals">
+                <h2>Cart Totals</h2>
+                <div class="totals">
+                    <p id="Sub-Totals">Sub-Totals: ₹0.00</p>
+                    <p id="Totals">Totals: ₹0.00</p>
+                </div>
+                <button type="button" class="checkout-button" id="checkout">Check Out</button>
+            </aside>
+        </div>
+    </main> 
+    
+
+      
+    <footer>
+        <div class="high-quality">
+            <img src="images/highQuality.png" alt="" />
+            <div>
+              <h4>High Quality</h4>
+              <span>crafted from top materials</span>
+            </div>
+          </div>
+          <div class="high-quality">
+            <img src="images/warranty.png" alt="" />
+            <div>
+              <h4>Warranty Protection</h4>
+              <span>Over 2 years</span>
+            </div>
+          </div>
+    
+          <div class="high-quality">
+            <img src="images/freeShipping.png" alt="" />
+            <div>
+              <h4>Free Shipping</h4>
+              <span>Order over 150 $</span>
+            </div>
+          </div>
+    
+          <div class="high-quality">
+            <img src="images/customerSupport.png" alt="" />
+            <div>
+              <h4>24 / 7 Support</h4>
+              <span>Dedicated support</span>
+            </div>
+          </div>
+
+    </footer
+
+    <!-- attach js file -->
     <script src="script.js"></script>
+
+    
+    <p>&copy; 2024 DhirajKr</p>
+
+    
+
+
+    
 </body>
 </html>

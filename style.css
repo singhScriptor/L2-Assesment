@@ -1,0 +1,308 @@
+/* importing google fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+/* styling for navbar */
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+} 
+
+nav .logo img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+
+nav h1{
+    margin-left: 10px;
+
+}
+
+nav h1:hover{
+    color: indigo;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    flex: 1;
+    padding: 0;
+    margin: 0;
+
+}
+
+.links, li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.links, a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links li:hover{
+    color: indigo;
+}
+.nav-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+.nav-logo img{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 20px;
+    
+}
+
+/* styling for section */
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45vh;
+    width: 100%;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section-logo {
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+    margin-bottom: 10%;
+}
+
+section h1:hover {
+    color: white;
+}
+
+section span:hover {
+    color: white;
+}
+
+/* styling for cart */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+.cart-table {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+     /* Adjust to fit the layout */
+}
+
+.cart-table table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures cells share borders */
+}
+
+.table-header {
+    background-color: #f9f1e7;
+    padding: 10px;
+}
+
+.table-header th {
+    padding: 10px;
+    text-align: left;
+    background-color: #f9f1e7;
+
+}
+
+.cart-table tbody {
+    background-color: transparent;
+}
+
+.cart-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Responsive adjustments */
+@media (max-width: 793px) {
+    .cart-table, .cart-summary {
+        width: 100%;
+        padding: auto;
+        height: auto;
+        
+    }
+    .cart-body tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background-color: white;
+    }
+    .cart-body td {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px 10px;
+    }
+    .cart-body td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .table-header, .table-header th {
+        display: none;
+    }
+    
+}
+
+/* styling for cart-summary */
+
+.cart-summary {
+    background-color: #f9f1e7;
+    padding: 50px;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    /* Center align header */
+}
+
+.checkout-button {
+    background-color: #f9f1e7;
+    padding: 30px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.checkout-button:hover {
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.checkout-button:hover {
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+
+
+/* footer styling */
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #f9f1e7;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.high-quality img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.high-quality {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.high-quality div span {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 15px;
+    color: #898989;
+    margin: 10px;
+}
+
+.high-quality div h3 {
+    margin-left: 10px;
+    padding: 0%;
+    margin:1px;
+}
+
+.high-quality div h3:hover {
+    color: indigo;
+}
+
+.high-quality div span:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
