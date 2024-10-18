@@ -169,6 +169,8 @@ main {
     text-align: left;
 }
 
+
+
 /* Responsive adjustments */
 @media (max-width: 793px) {
     .cart-table, .cart-summary {
@@ -223,6 +225,10 @@ main {
     background-color: brown;
     color: white;
     border: none;
+}
+
+#Totals {
+    color: #c08c2c;
 }
 
 
