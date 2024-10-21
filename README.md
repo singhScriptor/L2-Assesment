@@ -3,7 +3,7 @@
 
 # deployed link
 
-https://dhirajkr08.github.io/L2-assement/
+https://dhirajkr08.github.io/L2-Assesment/
 
 # you can clone directly from here
 
