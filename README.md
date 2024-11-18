@@ -1,5 +1,5 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
-# Cart Application
+# Coding Assessment L-2 Cart Applicaton
+
 
 # deployed link
 
