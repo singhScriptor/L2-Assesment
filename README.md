@@ -7,7 +7,7 @@
 
 # you can clone directly from here
 
-[git clone](https://github.com/singhScriptor/L2-assement.git)
+[git clone](https://github.com/singhScriptor/L2-Assesment)
 
 
 Features
