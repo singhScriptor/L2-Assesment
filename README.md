@@ -3,11 +3,11 @@
 
 # deployed link
 
-[visit Link](https://dhirajkr08.github.io/L2-Assesment/)
+[visit Link](https://singhscriptor.github.io/L2-Assesment/)
 
 # you can clone directly from here
 
-[git clone](https://github.com/Dhirajkr08/L2-assement.git)
+[git clone](https://github.com/singhScriptor/L2-assement.git)
 
 
 Features
